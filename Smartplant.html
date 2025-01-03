@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Management System</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Courier New", Courier, monospace;
+            background-color: #050A30; /* Deep blue background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden; /* Hide global overflow */
+        }
+
+        .container {
+            background: linear-gradient(to bottom, #050A30, #0a1d4d);
+            padding: 20px 30px;
+            border-radius: 10px;
+            width: 750px; /* Fixed width */
+            max-height: 500px; /* Restrict container height */
+            box-shadow: 
+                0 0 15px 3px rgba(0, 153, 255, 0.5),
+                0 0 25px 5px rgba(0, 102, 255, 0.3);
+            color: #7ec4d9;
+            position: relative;
+            text-align: left;
+            overflow: hidden; /* Prevent the scroll inside container */
+        }
+
+        .title {
+            color: #f7931e; /* Orange for title */
+            text-align: center;
+            font-size: 26px; /* Larger title font */
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-shadow: 0 0 8px #f7931e;
+        }
+
+        .dots {
+            border-top: 2px dotted #f15a80; /* Pink dotted line */
+            margin: 10px 0 15px 0;
+        }
+
+        pre {
+            margin: 0;
+            font-size: 18px; /* Larger text font size */
+            line-height: 1.8; /* Better spacing between lines */
+            color: #7ec4d9;
+            text-shadow: 0 0 5px rgba(126, 196, 217, 0.8);
+        }
+
+        .const {
+            color: #f48fb1; /* Pinkish const keyword */
+            font-weight: bold; /* Bold const keyword */
+            text-shadow: 0 0 6px rgba(244, 143, 177, 0.7);
+        }
+
+        .highlight {
+            color: #ffcc66; /* Golden strings */
+            text-shadow: 0 0 6px rgba(255, 204, 102, 0.8);
+        }
+
+        .key {
+            color: #ffffff; /* White for object keys */
+            font-weight: bold; /* Bold keys */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Smart Plant Monitoring System</div>
+        <div class="dots"></div>
+        <pre>
+<span class="const">const</span> project = {
+    <span class="key">name</span>: '<span class="highlight">Smart Plant Monitoring System</span>',
+    <span class="key">tools</span>: ['<span class="highlight">Raspberry Pi</span>'],
+    <span class="key">Description</span>:The Smart Plant Monitoring System
+    is a Raspberry Pi-based project designed to creatively interpret 
+    and communicate the emotional state of plants using emojis. 
+    This innovative system integrates an LDR (Light Dependent Resistor), 
+    temperature sensor, and soil moisture sensor to monitor key 
+    environmental parameters like light intensity, ambient temperature, 
+    and soil moisture levels. Data from these sensors is processed by the
+    Raspberry Pi and translated into visual emoji representations, providing 
+    an intuitive and engaging way to understand plant health. The project 
+    leverages the Raspberry Pi microcomputer, Python programming language, 
+    and sensor modules to deliver a seamless and user-friendly experience.
+};
+        </pre>
+    </div>
+</body>
+</html>
